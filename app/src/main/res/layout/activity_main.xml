@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/timeset_bg_resized"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="281dip"
+        android:layout_marginLeft="105dip"
+        android:layout_marginRight="105dip">
+        <EditText
+
+            android:layout_width="225px"
+            android:layout_height="250px"
+            android:id="@+id/settedHour"
+            android:hint="hours"/>
+
+        <EditText
+            android:layout_width="225px"
+            android:layout_height="250px"
+            android:id="@+id/settedMinute"
+            android:hint="minutes"/>
+        </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dip"
+        android:layout_marginBottom="23dip"
+        android:layout_marginLeft="94dip"
+        android:layout_marginRight="94dip"
+        android:background="@drawable/ok_button_resized"
+        android:id="@+id/goTimerStart"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rest_time"/>
+
+</LinearLayout>

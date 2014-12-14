@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">akatsuki</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lock_screen">LockScreenActivity</string>
+    <string name="title_activity_timer_start">TimerStartActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_locked">LockedActivity</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/progress_bg_resized"
+    tools:context="com.example.yoshitake.akatsuki.LockScreenActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="281dip"
+        android:layout_marginLeft="120dip"
+        android:layout_marginRight="120dip">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOUR"
+        android:textSize="40dip"
+        android:id="@+id/hour"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dip"
+        android:text="MINUTES"
+        android:id="@+id/mininute"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dip"
+        android:text="SECOND"
+        android:id="@+id/seconds"/>
+        </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dip"
+        android:layout_marginLeft="60dip"
+        android:layout_marginRight="60dip"
+        android:background="@drawable/quite_button_resized"
+        android:id="@+id/btn_release"
+        />
+</LinearLayout>

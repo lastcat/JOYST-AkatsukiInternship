@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/confirm_bg_resized"
+    tools:context="com.example.yoshitake.akatsuki.TimerStartActivity">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="120dip"
+    android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="130dip"
+    android:layout_marginLeft="95dip"
+    android:layout_marginRight="95dip">
+
+    <TextView
+        android:text="時間"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:id="@+id/setHour"/>
+    <TextView
+        android:text="分"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setMinute"/>
+</LinearLayout>
+    <TextView
+        android:text="勉強します"
+        android:textSize="30sp"
+        android:layout_marginLeft="200dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timerstart"
+        android:layout_marginTop="130dip"
+        android:layout_marginLeft="94dip"
+        android:layout_marginRight="94dip"
+        android:background="@drawable/start_button_resized"/>
+
+</LinearLayout>
